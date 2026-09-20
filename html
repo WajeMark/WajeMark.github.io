@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Adrian Waje | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 glass border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold tracking-wider hover:text-sky-400 transition">MAW<span class="text-sky-400">.</span></a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-sky-400 px-3 py-2 rounded-md text-sm font-medium transition">HOME</a>
+                        <a href="#about" class="hover:text-sky-400 px-3 py-2 rounded-md text-sm font-medium transition">ABOUT</a>
+                        <a href="#services" class="hover:text-sky-400 px-3 py-2 rounded-md text-sm font-medium transition">SERVICES</a>
+                        <a href="#portfolio" class="hover:text-sky-400 px-3 py-2 rounded-md text-sm font-medium transition">PORTFOLIO</a>
+                        <a href="#contact" class="hover:text-sky-400 px-3 py-2 rounded-md text-sm font-medium transition">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="reveal">
+                    <p class="text-sky-400 font-semibold tracking-wide mb-2">HELLO, WORLD.</p>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-4">
+                        I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">Mark Adrian Waje</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl text-gray-400 mb-6 h-10">
+                        <span id="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="text-gray-400 mb-8 max-w-lg leading-relaxed">
+                        A 2nd-year college student passionate about building secure, efficient networks and solving complex IT infrastructure challenges.
+                    </p>
+                    <a href="#portfolio" class="inline-block px-8 py-3 bg-sky-500 hover:bg-sky-400 text-slate-900 font-semibold rounded-lg transition transform hover:-translate-y-1 shadow-[0_0_15px_rgba(56,189,248,0.4)]">
+                        View My Work
+                    </a>
+                </div>
+                <div class="reveal h-96 w-full rounded-xl neon-border overflow-hidden">
+                    <img src="image_b70040.jpg" alt="Mark Adrian Waje" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="reveal max-w-3xl">
+                <h2 class="text-4xl font-bold mb-6 flex items-center">
+                    ABOUT ME <span class="ml-4 h-1 w-24 bg-sky-500 rounded"></span>
+                </h2>
+                <p class="text-gray-300 text-lg leading-relaxed mb-4">
+                    I am currently in my second year of college, taking up IT with a specialization in Network Administration. My journey in technology started with a simple curiosity about how computers communicate, which quickly evolved into a deep passion for routing, switching, and network security.
+                </p>
+                <p class="text-gray-300 text-lg leading-relaxed">
+                    When I'm not configuring routers in Packet Tracer or studying for my next certification, I enjoy experimenting with home lab setups and expanding my knowledge of server environments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold mb-12 text-center reveal">WHAT I DO</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="interactive-box reveal glass p-8 rounded-xl neon-border text-center cursor-pointer" data-title="Network Setup" data-desc="I can design and set up basic local area networks (LAN) and wide area networks (WAN). I work with routers, switches, and cabling to ensure devices communicate properly." style="min-height: 250px;">
+                    <div class="w-16 h-16 mx-auto bg-sky-500/20 rounded-full flex items-center justify-center mb-6 text-sky-400">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Network Setup</h3>
+                    <p class="text-gray-400 text-sm">Designing and implementing basic LAN/WAN topologies.</p>
+                </div>
+
+                <div class="interactive-box reveal glass p-8 rounded-xl neon-border text-center cursor-pointer" data-title="Troubleshooting" data-desc="I fix connectivity issues, find broken cables, and resolve IP address conflicts to keep networks running smoothly." style="min-height: 250px; transition-delay: 100ms;">
+                    <div class="w-16 h-16 mx-auto bg-sky-500/20 rounded-full flex items-center justify-center mb-6 text-sky-400">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Troubleshooting</h3>
+                    <p class="text-gray-400 text-sm">Resolving connectivity issues and hardware faults.</p>
+                </div>
+
+                <div class="interactive-box reveal glass p-8 rounded-xl neon-border text-center cursor-pointer" data-title="SysAdmin Basics" data-desc="I can manage user accounts, assign permissions, and set up basic server roles in Windows Server and Linux environments." style="min-height: 250px; transition-delay: 200ms;">
+                    <div class="w-16 h-16 mx-auto bg-sky-500/20 rounded-full flex items-center justify-center mb-6 text-sky-400">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">SysAdmin Basics</h3>
+                    <p class="text-gray-400 text-sm">Managing users and basic server configurations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold mb-12 text-center reveal">PORTFOLIO</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="interactive-box reveal group cursor-pointer" data-title="Cisco Packet Tracer Lab" data-desc="A digital simulation of a campus network, configuring VLANs, OSPF routing, and basic security on Cisco switches and routers.">
+                    <div class="h-48 wireframe-box rounded-lg neon-border mb-4">
+                        <div class="absolute inset-0 bg-slate-900/70 z-0 group-hover:bg-transparent transition duration-300"></div>
+                        <span class="relative z-10 text-gray-400 text-sm bg-slate-900 px-2 py-1 rounded">Project 1</span>
+                    </div>
+                    <h4 class="font-bold text-lg text-sky-400">Cisco Packet Tracer Lab</h4>
+                    <p class="text-sm text-gray-400 mt-1">Campus network simulation.</p>
+                </div>
+                
+                <div class="interactive-box reveal group cursor-pointer" data-title="Subnet Calculator" data-desc="A simple program created to instantly calculate network addresses, broadcast addresses, and usable host ranges based on a given IP and CIDR." style="transition-delay: 100ms;">
+                    <div class="h-48 wireframe-box rounded-lg neon-border mb-4">
+                        <div class="absolute inset-0 bg-slate-900/70 z-0 group-hover:bg-transparent transition duration-300"></div>
+                        <span class="relative z-10 text-gray-400 text-sm bg-slate-900 px-2 py-1 rounded">Project 2</span>
+                    </div>
+                    <h4 class="font-bold text-lg text-sky-400">Subnet Calculator</h4>
+                    <p class="text-sm text-gray-400 mt-1">Simple script project.</p>
+                </div>
+
+                <div class="interactive-box reveal group cursor-pointer" data-title="Home Server Setup" data-desc="Transformed an old PC into a functional local file server using Linux, setting up Samba for file sharing across Windows devices." style="transition-delay: 200ms;">
+                    <div class="h-48 wireframe-box rounded-lg neon-border mb-4">
+                        <div class="absolute inset-0 bg-slate-900/70 z-0 group-hover:bg-transparent transition duration-300"></div>
+                        <span class="relative z-10 text-gray-400 text-sm bg-slate-900 px-2 py-1 rounded">Project 3</span>
+                    </div>
+                    <h4 class="font-bold text-lg text-sky-400">Home Server Setup</h4>
+                    <p class="text-sm text-gray-400 mt-1">Local file sharing & DNS.</p>
+                </div>
+
+                <div class="interactive-box reveal group cursor-pointer" data-title="Cable Management" data-desc="Hands-on practice organizing ethernet cables in a small network rack, punching down keystones, and terminating RJ45 connectors." style="transition-delay: 300ms;">
+                    <div class="h-48 wireframe-box rounded-lg neon-border mb-4">
+                        <div class="absolute inset-0 bg-slate-900/70 z-0 group-hover:bg-transparent transition duration-300"></div>
+                        <span class="relative z-10 text-gray-400 text-sm bg-slate-900 px-2 py-1 rounded">Project 4</span>
+                    </div>
+                    <h4 class="font-bold text-lg text-sky-400">Cable Management</h4>
+                    <p class="text-sm text-gray-400 mt-1">Physical rack organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="reveal">
+                    <h2 class="text-4xl font-bold mb-6">CONTACT ME</h2>
+                    <p class="text-gray-400 mb-8 text-lg">
+                        Feel free to drop a message. I'm always open to discussing new opportunities in IT.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center text-gray-300">
+                            <svg class="w-6 h-6 mr-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            markadrianwaje4@gmail.com
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reveal glass p-8 rounded-xl">
+                    <form class="space-y-6">
+                        <div>
+                            <input type="text" placeholder="Your Name" class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition">
+                        </div>
+                        <div>
+                            <textarea rows="4" placeholder="Your Message" class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition resize-none"></textarea>
+                        </div>
+                        <button type="button" class="w-full bg-sky-500 hover:bg-sky-400 text-slate-900 font-bold py-3 px-4 rounded-lg transition transform hover:-translate-y-1 shadow-[0_0_15px_rgba(56,189,248,0.3)]">
+                            SEND MESSAGE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="glass border-t border-gray-800 py-8 text-center text-gray-500 text-sm">
+        <p>Made by a 2nd year IT college student.</p>
+    </footer>
+
+    <div id="info-modal" class="modal-overlay hidden fixed inset-0 bg-black/80 z-[100] flex items-center justify-center p-4">
+        <div class="glass p-8 rounded-xl max-w-lg w-full relative transform transition-all">
+            <button id="close-modal" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <h3 id="modal-title" class="text-2xl font-bold text-sky-400 mb-4"></h3>
+            <p id="modal-desc" class="text-gray-300 leading-relaxed"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
